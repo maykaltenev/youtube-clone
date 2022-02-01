@@ -10,14 +10,28 @@ nav img {
   width: 9vw;
 }
 /* search-bar */
+
+/* search text */
 form input[type="text"] {
   width: 30vw;
   height: 4vh;
+  border: none;
+  outline: none;
 }
+
 /* search button */
-form button {
+.search {
   width: 4vh;
   height: 4vh;
+  cursor: pointer;
+  position: absolute;
+}
+/* microphone */
+.micro {
+  width: 4vh;
+  height: 4vh;
+  border-radius: 100%;
+  border: none;
 }
 
 /* fancy checkbox */
@@ -68,17 +82,12 @@ form button {
 .switch input:checked + .slider::before {
   transform: translateX(2.5rem);
 }
-/* microphone */
-form :last-child {
-  border-radius: 100%;
-  border: none;
-}
+
 /* on click */
 form + button:active {
   background-color: rgb(159, 159, 159);
 }
 /* end-nav flex box */
-
 .end-nav {
   width: 35vw;
   display: flex;
@@ -90,4 +99,14 @@ form + button:active {
   width: 2.5vw;
   height: 7vh;
   border-radius: 100%;
+}
+/* background transparent */
+.end-nav button {
+  border: none;
+  background-color: transparent;
+}
+/* bigger icons */
+.end-nav button > i {
+  border: 5px salmon dashed;
+  font-size: 1.3rem;
 }

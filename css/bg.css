@@ -1,0 +1,9 @@
+.nasa-image {
+  /* border: 10px rgb(170, 0, 255) dashed;
+  grid-area: poster; */
+  background-image: url(../images/nasa-bg.png);
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  height: 30vh;
+}
