@@ -1,0 +1,6 @@
+header {
+  display: grid;
+  border: 2px black solid;
+  background-color: aqua;
+  grid-template-columns: 2fr 3fr auto 5fr;
+}
