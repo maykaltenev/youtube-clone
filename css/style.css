@@ -3,6 +3,7 @@
 @import url(./nav.css);
 @import url(./bg.css);
 @import url(./nasa-official.css);
+@import url(./menu-bar.css);
 
 * {
   font-size: 16px;
@@ -16,5 +17,5 @@ body {
 }
 header {
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
 }

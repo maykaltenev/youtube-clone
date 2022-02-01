@@ -1,6 +1,4 @@
 nav {
-  border: 10px orange dashed;
-  grid-area: nav;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,7 +95,7 @@ form + button:active {
 /* avatar */
 .end-nav img {
   width: 2.5vw;
-  height: 7vh;
+  /* height: 7vh; */
   border-radius: 100%;
 }
 /* background transparent */
