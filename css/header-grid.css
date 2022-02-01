@@ -5,5 +5,11 @@ header {
   border: 3px red dashed;
   grid-template-rows: 2fr auto 4fr 2fr;
   grid-template-columns: 5fr auto 5fr;
+
   grid-gap: 5em;
+  grid-template-areas: "nav nav nav";
+}
+nav {
+  border: 10px orange dashed;
+  grid-area: nav;
 }
