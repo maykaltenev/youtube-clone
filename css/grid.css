@@ -1,6 +1,26 @@
-header {
+body {
   display: grid;
-  border: 2px black solid;
   background-color: aqua;
   grid-template-columns: 2fr 3fr auto 5fr;
+  grid-template-rows: 35fr 35fr;
+  border: 2px black solid;
+  grid-template-areas:
+    "asidebar header header header"
+    "asidebar main main main";
+}
+header {
+  grid-area: header;
+  background-color: rgb(0, 255, 81);
+  border: 2px violet dashed;
+}
+.aside-bar {
+  grid-area: asidebar;
+  background-color: rgb(234, 255, 0);
+  border: 2px rgb(238, 130, 164) dashed;
+}
+
+main {
+  grid-area: main;
+  background-color: rgb(128, 0, 255);
+  border: 2px violet dashed;
 }
