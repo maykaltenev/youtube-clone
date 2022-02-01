@@ -12,10 +12,6 @@ header {
     "menu-bar menu-bar menu-bar";
 }
 
-nav {
-  border: 10px orange dashed;
-  grid-area: nav;
-}
 .nasa-image {
   border: 10px rgb(170, 0, 255) dashed;
   grid-area: poster;
