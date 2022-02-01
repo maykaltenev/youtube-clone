@@ -1,6 +1,6 @@
 body {
   display: grid;
-  background-color: aqua;
+  /* background-color: aqua; */
   grid-template-columns: 2fr 3fr auto 5fr;
   grid-template-rows: 35fr 35fr;
   border: 2px black solid;
@@ -8,19 +8,15 @@ body {
     "asidebar header header header"
     "asidebar main main main";
 }
-header {
-  grid-area: header;
-  background-color: rgb(0, 255, 81);
-  border: 2px violet dashed;
-}
+
 .aside-bar {
   grid-area: asidebar;
   background-color: rgb(234, 255, 0);
-  border: 2px rgb(238, 130, 164) dashed;
+  border: 2px rgb(157, 130, 238) dashed;
 }
 
 main {
   grid-area: main;
   background-color: rgb(128, 0, 255);
-  border: 2px violet dashed;
+  border: 2px rgb(233, 238, 130) dashed;
 }

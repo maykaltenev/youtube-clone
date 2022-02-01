@@ -1,0 +1,9 @@
+header {
+  display: grid;
+  grid-area: header;
+  background-color: rgb(0, 255, 81);
+  border: 3px red dashed;
+  grid-template-rows: 2fr auto 4fr 2fr;
+  grid-template-columns: 5fr auto 5fr;
+  grid-gap: 5em;
+}
