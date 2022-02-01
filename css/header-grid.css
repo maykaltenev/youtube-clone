@@ -3,13 +3,28 @@ header {
   grid-area: header;
   background-color: rgb(0, 255, 81);
   border: 3px red dashed;
-  grid-template-rows: 2fr auto 4fr 2fr;
+  grid-template-rows: 2fr auto 3 fr 1fr;
   grid-template-columns: 5fr auto 5fr;
-
-  grid-gap: 5em;
-  grid-template-areas: "nav nav nav";
+  grid-template-areas:
+    "nav nav nav"
+    "poster poster poster"
+    "official official official"
+    "menu-bar menu-bar menu-bar";
 }
+
 nav {
   border: 10px orange dashed;
   grid-area: nav;
+}
+.nasa-image {
+  border: 10px rgb(170, 0, 255) dashed;
+  grid-area: poster;
+}
+.nasa-official {
+  border: 10px rgb(255, 0, 38) dashed;
+  grid-area: official;
+}
+.menu-bar {
+  border: 10px rgb(43, 0, 255) dashed;
+  grid-area: menu-bar;
 }
