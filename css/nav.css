@@ -19,7 +19,6 @@ form button {
   width: 4vh;
   height: 4vh;
 }
-/*  */
 
 /* fancy checkbox */
 .toggle {
@@ -70,9 +69,7 @@ form button {
   transform: translateX(2.5rem);
 }
 /* microphone */
-form + button {
-  width: 2.5vw;
-  height: 5vh;
+form :last-child {
   border-radius: 100%;
   border: none;
 }
@@ -83,5 +80,14 @@ form + button:active {
 /* end-nav flex box */
 
 .end-nav {
+  width: 35vw;
   display: flex;
+  justify-content: space-between;
+  border: 2px red dashed;
+}
+/* avatar */
+.end-nav img {
+  width: 2.5vw;
+  height: 7vh;
+  border-radius: 100%;
 }
