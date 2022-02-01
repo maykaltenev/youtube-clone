@@ -3,7 +3,33 @@
   grid-area: poster; */
   background-image: url(../images/nasa-bg.png);
   background-repeat: no-repeat;
-
   width: 100vw;
   height: 30vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: 2px white dashed;
+}
+/* justify social media */
+.nasa-image ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  border: 5px white dashed;
+}
+.nasa-image ul {
+  list-style: none;
+}
+.nasa-image ul li a {
+  display: flex;
+  color: rgba(225, 224, 224, 0.599);
+  text-decoration: none;
+}
+.nasa-image ul {
+  color: rgba(225, 224, 224, 0.599);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.nasa-image ul li img {
+  width: 1.5rem;
 }
