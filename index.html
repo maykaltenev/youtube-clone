@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link
+    rel="stylesheet"
+    href="./fontawesome-free-6.0.0-beta3-web/css/all.css"
+  />
     <title>Youtube clone</title>
   </head>
   <body>
     <header>
       <nav>
-        <i class="fa fa-hamburgermenu"></i>
+        <i class="fas fa-bars"></i>
         <img src="logo" alt="" />
         <form class="search-bar" action="action_page.php">
           <input type="text" placeholder="Search" name="search" />
@@ -26,21 +29,21 @@
         <button type="submit"><i class="fa fa-microphone"></i></button>
         <div class="end-nav">
           <button type="submit">
-            <i class="fa fa-videobutton"></i>
+            <i class="fa fa-video"></i>
           </button>
-          <button type="submit"><i class="fa fa-appbutton"></i></button>
-          <button type="submit"><i class="fa fa-bellicon"></i></button>
-          <img src="" alt="avatar"><a href="#"></a></img>
+          <button type="submit"><i class="fas fa-th"></i></button>
+          <button type="submit"><i class="fas fa-bellicon"></i></button>
+          <img src="" alt="avatar"><a href="#">avatar</a></img>
         </div>
       </nav>
       <div class="nasa-image">
           <img src="" alt="nasa img">
           <ul>
             <li><a href="www.nasa.gov"><i class="fa fa-nasalogo"></i>www.nasa.gov</a></li>
-              <li><a href=""><i class="fa fa-tweeter"></i></a></li>
-              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-              <li><a href=""><i class="fa fa-flicker"></i></a></li>
-              <li><a href=""><i class="fa fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-facebook"></i></a></li>
+              <li><a href=""><i class="fab fa-flickr"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
           </ul>          
       </div>
       <div class="nasa-official">
@@ -55,11 +58,12 @@
            <li><a href="#">COMMUNITY</a></li>
            <li><a href="#">CHANNELS</a></li>
            <li><a href="#">ABOUT</a></li>
-           <li><a href="#"><i class="fa fa-search"></a></li>
+           <li><i class="fas fa-search"></i>
+            <!-- hidden and shown on active -->
+            <input type="text" placeholder="Search" name="search" />
+        </li>
        </ul>
       </div>
-      
-   
       <section class="side-bar">
         <nav>
           <ul>
@@ -71,7 +75,6 @@
         </nav>
       </section>
     </header>
-
     <main>
       <article class="liveStream">
         <div class="content-1"></div>
@@ -82,7 +85,6 @@
           <div>text</div>
         </div>
       </article>
-
       <article class="uploads-title">
         <div>upload</div>
         <div class="upload-videos">
