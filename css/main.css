@@ -9,11 +9,11 @@ main {
 }
 
 .uploads {
-  background-color: rgba(239, 144, 228, 0.571);
+  /* background-color: rgba(239, 144, 228, 0.571); */
   grid-area: uploads;
 }
 .first-row {
-  background-color: rgb(216, 209, 223);
+  /* background-color: rgb(216, 209, 223); */
   grid-area: first;
 }
 

@@ -90,7 +90,7 @@ form + button:active {
   width: 35vw;
   display: flex;
   justify-content: space-between;
-  border: 2px red dashed;
+  /* border: 2px red dashed; */
 }
 /* avatar */
 .end-nav img {
@@ -105,6 +105,6 @@ form + button:active {
 }
 /* bigger icons */
 .end-nav button > i {
-  border: 5px salmon dashed;
+  /* border: 5px salmon dashed; */
   font-size: 1.3rem;
 }

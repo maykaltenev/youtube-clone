@@ -31,3 +31,6 @@ footer p {
 footer :last-child {
   margin-top: 2rem;
 }
+hr {
+  width: 10rem;
+}

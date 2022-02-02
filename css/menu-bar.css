@@ -16,7 +16,7 @@
   display: flex;
   width: 10vw;
   justify-content: space-evenly;
-  border: 2px red dashed;
+  /* border: 2px red dashed; */
 }
 .menu-bar ul li a {
   color: white;
@@ -24,7 +24,7 @@
   text-decoration: none;
 }
 .menu-bar ul li a:active {
-  border-bottom: 3px solid wheat;
+  /* border-bottom: 3px solid wheat; */
   transition: 0.04s;
   font-weight: 900;
 }

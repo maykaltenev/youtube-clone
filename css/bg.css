@@ -7,25 +7,25 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  border: 2px white dashed;
+  /* border: 2px white dashed; */
 }
 /* justify social media */
 .nasa-image ul {
   display: flex;
   /* width: 30%; */
   justify-content: space-evenly;
-  border: 5px white dashed;
+  /* border: 5px white dashed; */
 }
 .nasa-image ul {
   list-style: none;
 }
 .nasa-image ul li a {
   display: flex;
-  color: rgba(225, 224, 224, 0.599);
+  color: rgba(249, 249, 249, 0.599);
   text-decoration: none;
 }
 .nasa-image ul {
-  color: rgba(225, 224, 224, 0.599);
+  color: rgb(247, 243, 243);
   text-decoration: none;
   font-size: 1.5rem;
 }
