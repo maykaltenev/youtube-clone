@@ -1,0 +1,16 @@
+.uploads {
+  width: 95vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px red dashed;
+}
+.first-row {
+  display: flex;
+  width: 95vw;
+}
+.second-row {
+  width: 95vw;
+  display: flex;
+}
