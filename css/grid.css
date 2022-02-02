@@ -1,7 +1,7 @@
 body {
   display: grid;
   /* background-color: aqua; */
-  grid-template-columns: 2fr 3fr auto 5fr;
+  grid-template-columns: 13rem 3fr auto 5fr;
   grid-template-rows: 25rem 40rem;
   border: 2px black solid;
   grid-template-areas:
@@ -19,7 +19,7 @@ header {
 }
 .aside-bar {
   grid-area: asidebar;
-  background-color: rgb(234, 255, 0);
+  background-color: rgb(48, 48, 48);
   border: 2px rgb(157, 130, 238) dashed;
 }
 
