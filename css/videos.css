@@ -1,5 +1,5 @@
 .uploads {
-  width: 95vw;
+  width: 80vw;
   height: 5vh;
   display: flex;
   justify-content: space-between;
@@ -8,9 +8,21 @@
 }
 .first-row {
   display: flex;
-  width: 95vw;
+  width: 80vw;
 }
 .second-row {
-  width: 95vw;
   display: flex;
+  width: 80vw;
+}
+.uploads::before {
+  content: "";
+  width: 30rem;
+}
+.first-row::before {
+  content: "";
+  width: 30rem;
+}
+.second-row::before {
+  content: "";
+  width: 30rem;
 }

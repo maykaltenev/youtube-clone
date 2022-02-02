@@ -7,6 +7,9 @@
 .nasa-official div {
   display: flex;
 }
+.nasa-official div span {
+  align-self: center;
+}
 .control-space {
   display: flex;
   width: 80rem;
