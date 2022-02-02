@@ -25,6 +25,6 @@ header {
 
 main {
   grid-area: main;
-  background-color: rgb(128, 0, 255);
+  background-color: #232224;
   /* border: 2px rgb(233, 238, 130) dashed; */
 }
