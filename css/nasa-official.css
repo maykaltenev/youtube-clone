@@ -1,15 +1,24 @@
 .nasa-official {
   display: flex;
   border: 5px indianred dashed;
+  justify-content: center;
+  align-items: center;
 }
 .nasa-official div {
   display: flex;
-  border: 5px indianred dashed;
-  width: 80%;
-  /* height: 100%; */
 }
+.control-space {
+  display: flex;
+  width: 80rem;
+  justify-content: space-between;
+  border: 10px rgb(130, 238, 155) dashed;
+}
+
 .nasa-official div img {
-  width: 5rem;
+  width: 6rem;
+  height: 5rem;
+
+  border-radius: 100%;
 }
 /* subscribe button */
 .nasa-official button {
