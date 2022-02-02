@@ -1,7 +1,6 @@
 .nasa-official {
   display: flex;
   border: 5px indianred dashed;
-  margin-left: 10%;
 }
 .nasa-official div {
   display: flex;

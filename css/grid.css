@@ -2,7 +2,7 @@ body {
   display: grid;
   /* background-color: aqua; */
   grid-template-columns: 2fr 3fr auto 5fr;
-  grid-template-rows: 35fr 35fr;
+  grid-template-rows: 25rem 40rem;
   border: 2px black solid;
   grid-template-areas:
     "asidebar header header header"

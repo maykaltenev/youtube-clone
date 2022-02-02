@@ -4,7 +4,7 @@
   background-image: url(../images/nasa-bg.png);
   background-repeat: no-repeat;
   /* width: 100vw; */
-  height: 25vh;
+  /* height: 25vh; */
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -13,7 +13,7 @@
 /* justify social media */
 .nasa-image ul {
   display: flex;
-  width: 30%;
+  /* width: 30%; */
   justify-content: space-evenly;
   border: 5px white dashed;
 }

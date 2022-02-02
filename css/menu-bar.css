@@ -2,8 +2,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 10%;
 }
+/* center */
+/* .menu-bar::before {
+  content: "";
+  width: 10vw;
+} */
 
 .menu-bar ul {
   display: flex;
