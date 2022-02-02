@@ -4,7 +4,7 @@
 @import url(./bg.css);
 @import url(./nasa-official.css);
 @import url(./menu-bar.css);
-
+@import url(./main.css);
 * {
   font-size: 16px;
   margin: 0;

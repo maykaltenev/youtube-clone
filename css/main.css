@@ -1,0 +1,5 @@
+main {
+  display: grid;
+  grid-template-rows: 2rem 20rem 20rem;
+  grid-template-columns: 4rem repeat(6, 8rem) 4rem;
+}
