@@ -6,6 +6,11 @@ main {
     " uploads uploads uploads uploads uploads uploads"
     " first first first first first first "
     " second second second second second second ";
+  border: 2px firebrick solid;
+}
+.upload-title {
+  width: 95vw;
+  height: 75vh;
 }
 
 .uploads {
