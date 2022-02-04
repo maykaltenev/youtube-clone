@@ -6,7 +6,6 @@
   flex-direction: column;
   width: 2rem;
   height: 2rem;
-  border: 2px red dashed;
 }
 .hamburger div {
   width: 1.5rem;

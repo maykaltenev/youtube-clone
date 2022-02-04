@@ -1,4 +1,31 @@
 @media only screen and (max-width: 600px) {
 }
+/* Iphone 6/7/8 Plus */
+@media only screen and (width: 414px) and (height: 736px) {
+  body {
+    width: 414px;
+    height: 736px;
+    background-color: rgb(12, 12, 12);
+    border: 1px violet dashed;
+  }
+  .aside-bar {
+    width: 50px;
+  }
+  nav {
+    display: flex;
+    width: 360px;
+    height: 112px;
+    border: 2px red dashed;
+  }
+  nav img {
+    width: 100px;
+    height: 50px;
+    border: 2px rgb(47, 0, 255) dashed;
+  }
+  main {
+    border: 1px solid rgb(137, 4, 88);
+  }
+}
+
 @media only screen and (orientation: landscape) {
 }

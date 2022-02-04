@@ -1,20 +1,19 @@
 body {
   display: grid;
-  grid-template-columns: 7rem auto;
-  grid-template-rows: 10rem auto;
+  grid-template-columns: 3.3rem auto;
+  grid-template-rows: 7rem auto;
   grid-template-areas:
     "aside nav"
     "aside main";
 }
 nav {
   grid-area: nav;
-  border: 15px red dashed;
-  background-color: rgb(237, 164, 54);
+  /* border: 15px red dashed; */
+  /* background-color: rgb(237, 164, 54); */
 }
 main {
   grid-area: main;
-  border: 15px violet dashed;
-  background-color: rgb(55, 205, 155);
+  /* background-color: rgb(55, 205, 155); */
 }
 .aside-bar {
   grid-area: aside;
