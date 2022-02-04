@@ -2,4 +2,21 @@ body {
   display: grid;
   grid-template-columns: 10rem auto;
   grid-template-rows: 10rem auto;
+  grid-template-areas:
+    "aside nav"
+    "aside main";
+}
+nav {
+  grid-area: nav;
+  border: 15px red dashed;
+  background-color: rgb(237, 164, 54);
+}
+main {
+  grid-area: main;
+  border: 15px violet dashed;
+  background-color: rgb(55, 205, 155);
+}
+.aside-bar {
+  grid-area: aside;
+  background-color: rgb(160, 111, 206);
 }
