@@ -6,79 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Youtube clone responsive design" />
     <meta
-    name="keywords"
-    content="html, css, web, webpage, youtube, practice,responsive, mobile, tablet, desktop"
-  />
-  <meta name="author" content="Maykal Tenev" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      name="keywords"
+      content="html, css, web, webpage, youtube, practice,responsive, mobile, tablet, desktop"
+    />
+    <meta name="author" content="Maykal Tenev" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    rel="stylesheet"
-    href="./fontawesome-free-6.0.0-beta3-web/css/all.css"
-  />
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/mobile.css">
+      rel="stylesheet"
+      href="./fontawesome-free-6.0.0-beta3-web/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
     <title>Youtube clone</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <!-- <i class="fas fa-bars"></i> -->
-        <img src="./images/youtube-logo.png" alt="" />
-        <form class="search-bar" action="action_page.php">
-            <input type="text" placeholder="Search" name="search" />
-            <button class="search" type="submit"><i class="fa fa-search"></i></button>
-          <button class="micro" type="submit"><i class="fa fa-microphone"></i></button>
+    <nav>
+      <!-- <i class="fas fa-bars"></i> -->
+      <img class="logo" src="./images/youtube-logo.png" alt="" />
+      <form class="search-bar" action="action_page.php">
+        <input type="text" placeholder="Search" name="search" />
+        <button class="search" type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+        <button class="micro" type="submit">
+          <i class="fa fa-microphone"></i>
+        </button>
         </form>
-        <div class="end-nav">
-            <div class="toggle">
-              <!-- <label class="toggle-label"></label> -->
+          <div class="end-nav">
+               <!-- <div class="toggle">
+              <label class="toggle-label"></label>
               <label class="switch">
                 <input type="checkbox" name="agree" />
                 <span class="slider"></span>
               </label>
-            </div>
+              </div>  -->
           <button type="submit">
             <i class="fa fa-video"></i>
           </button>
           <button type="submit"><i class="fas fa-th test"></i></button>
           <button type="submit"><i class="fas fa-bell"></i></button>
-          <img src="./images/avatar.png" alt="avatar"><a href="#">avatar</a></img>
-        </div>
-      </nav>
-      <article class="nasa-image">
-          <ul>
-            <li><a href="www.nasa.gov"><img src="./images/nasa-logo.png" alt="nasa img"><i class="fa fa-nasalogo"></i>www.nasa.gov</a></li>
-              <li><a href=""><i class="fab fa-twitter"></i></a></li>
-              <li><a href=""><i class="fab fa-facebook"></i></a></li>
-              <li><a href=""><i class="fab fa-flickr"></i></a></li>
-              <li><a href=""><i class="fab fa-instagram"></i></a></li>
-          </ul>          
-      </article>
-      <article class="nasa-official">
-        <div class="control-space">
+          <img src="./images/avatar.png" alt="avatar"><a href="#"></a></img>
+         </div> 
+    </nav>
+
+    <article class="nasa-image">
+      <ul>
+        <li>
+          <a href="www.nasa.gov"
+            ><img src="./images/nasa-logo.png" alt="nasa img" /><i
+              class="fa fa-nasalogo"
+            ></i
+            >www.nasa.gov</a
+          >
+        </li>
+        <li>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fab fa-flickr"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </article>
+    <article class="nasa-official">
+      <div class="control-space">
         <div class="account">
-          <img src="./images/nasa-logo.png" alt="nasa img">
+          <img src="./images/nasa-logo.png" alt="nasa img" />
           <span>Nasa &#9745; </span>
         </div>
-          <button type="submit" value="subscribe">Subscribe</button>
-        </div>
-      </article>
-      <article class="menu-bar">
-       <ul>
-           <li><a href="#">HOME</a></li>
-           <li><a href="#">VIDEOS</a></li>
-           <li><a href="#">PLAYLIST</a></li>
-           <li><a href="#">COMMUNITY</a></li>
-           <li><a href="#">CHANNELS</a></li>
-           <li><a href="#">ABOUT</a></li>
-           <li><button class="fas fa-search"></button>
-            <!-- hidden and shown onClick -->
-            <!-- <input type="text" placeholder="Search" name="search" /> -->
+        <button type="submit" value="subscribe">Subscribe</button>
+      </div>
+    </article>
+    <article class="menu-bar">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">VIDEOS</a></li>
+        <li><a href="#">PLAYLIST</a></li>
+        <li><a href="#">COMMUNITY</a></li>
+        <li><a href="#">CHANNELS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li>
+          <button class="fas fa-search"></button>
+          <!-- hidden and shown onClick -->
+          <!-- <input type="text" placeholder="Search" name="search" /> -->
         </li>
-       </ul>
-      </article>
-      
-    </header>
+      </ul>
+    </article>
+
     <section class="aside-bar">
       <div class="hamburger">
         <div></div>
@@ -87,226 +106,395 @@
       </div>
       <div class="shown">
         <ul>
-          <li><a href=""><i class="fas fa-home"></i>Home</a></li>
-          <li><a href=""><i class="far fa-compass"></i>Explore</a></li>
-          <li><a href=""><i class="fab fa-youtube"></i>Subscriptions</a></li>
-          <li><a href=""><i class="fab fa-youtube"></i>Library</a></li>
+          <li>
+            <a href=""><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href=""><i class="far fa-compass"></i>Explore</a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-youtube"></i>Subscriptions</a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-youtube"></i>Library</a>
+          </li>
         </ul>
       </div>
       <div class="side-menu">
         <div class="home">
           <ul>
-            <li><a href=""><i class="fas fa-home"></i>Home</a></li>
-            <li><a href=""><i class="far fa-compass"></i>Explore</a></li>
-            <li><a href=""><i class="fab fa-youtube"></i>Subscriptions</a></li>
+            <li>
+              <a href=""><i class="fas fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href=""><i class="far fa-compass"></i>Explore</a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-youtube"></i>Subscriptions</a>
+            </li>
           </ul>
         </div>
-        <hr>
+        <hr />
         <div class="library">
-            <ul>
-              <li><a href=""><i class="fab fa-youtube"></i>Library</a></li>
-              <li><a href=""><i class="fas fa-history"></i>History</a></li>
-              <li><a href=""><i class="fab fa-youtube"></i>Your videos</a></li>
-              <li><a href=""><i class="far fa-clock"></i>Watch later</a></li>
-              <li><a href=""><i class="fas fa-heart"></i>Favorites</a></li>
-            </ul>
-          </div>
-          <hr>
-          <div class="subscriptions">
-            <ul>
-              <li><a href=""><i class="fas fa-heart"></i>Spinnin Records</a></li>
-              <li><a href=""><i class="fas fa-balance-scale"></i>Nice Guys</a></li>
-              <li><a href=""><i class="fab fa-affiliatetheme"></i>ARTE Concert</a><li>
-              <li><a href=""><i class="fab fa-cuttlefish"></i>Lofi Girl</a></li>
-              <li><a href=""><i class="fab fa-font-awesome-flag"></i>Future Classic</a></li>
-            </ul>
-          </div>
-          <hr>
-          <div class="more-for-youtube">
-            <ul>
-              <li><a href=""><i class="fab fa-youtube-square"></i>Youtube Premium</a></li>
-              <li><a href=""><i class="fas fa-film"></i>Movie & shows</a></li>
-              <li><a href=""><i class="fas fa-film"></i>Gaming</a></li>
-              <li><a href=""><i class="fas fa-map-pin"></i>Live</a></li>
-              <li><a href=""><i class="far fa-lightbulb"></i>Learning</a></li>
-              <li><a href=""><i class="fas fa-trophy"></i>Sport</a></li>
-            </ul>
-          </div>
-          <hr>
-          <div class="Settings">
-            <ul>
-              <li><a href=""><i class="fas fa-trophy"></i>Settings</a></li>
-              <li><a href=""><i class="fab fa-font-awesome-flag"></i>Report history</a></li>
-              <li><a href=""><i class="far fa-question-circle"></i>Help</a></li>
-              <li><a href=""><i class="fas fa-exclamation-circle"></i>Send feedback</a></li>
-            </ul>
-          </div>
-          <hr>
-          <footer>
-            <p>
+          <ul>
+            <li>
+              <a href=""><i class="fab fa-youtube"></i>Library</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-history"></i>History</a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-youtube"></i>Your videos</a>
+            </li>
+            <li>
+              <a href=""><i class="far fa-clock"></i>Watch later</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-heart"></i>Favorites</a>
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="subscriptions">
+          <ul>
+            <li>
+              <a href=""><i class="fas fa-heart"></i>Spinnin Records</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-balance-scale"></i>Nice Guys</a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-affiliatetheme"></i>ARTE Concert</a>
+            </li>
+            <li></li>
+            <li>
+              <a href=""><i class="fab fa-cuttlefish"></i>Lofi Girl</a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fab fa-font-awesome-flag"></i>Future Classic</a
+              >
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="more-for-youtube">
+          <ul>
+            <li>
+              <a href=""
+                ><i class="fab fa-youtube-square"></i>Youtube Premium</a
+              >
+            </li>
+            <li>
+              <a href=""><i class="fas fa-film"></i>Movie & shows</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-film"></i>Gaming</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-map-pin"></i>Live</a>
+            </li>
+            <li>
+              <a href=""><i class="far fa-lightbulb"></i>Learning</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-trophy"></i>Sport</a>
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="Settings">
+          <ul>
+            <li>
+              <a href=""><i class="fas fa-trophy"></i>Settings</a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fab fa-font-awesome-flag"></i>Report history</a
+              >
+            </li>
+            <li>
+              <a href=""><i class="far fa-question-circle"></i>Help</a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fas fa-exclamation-circle"></i>Send feedback</a
+              >
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <footer>
+          <p>
             <a href=""> About</a>
-                <a href="">Press</a>
-                <a href="">Copyright</a>
-                <a href="">Contact</a>
-                <a href="">Creator</a>
-                <a href="">Advertise</a>
-                <a href="">Developers</a>
-                <a href="">Impressum</a>
-                <a href="">NetzDG</a>
-                <a href="">Transparenzbericht</a>
-                <a href="">NetzDG</a>
-                <a href="">complaints</a>
-              <br>
-              <a class="terms" href="">Terms</a>
-              <a href="">Privacy</a>
-              <a href="">Policy & Safety</a>
-              <a href="">How YouTube works</a>
-              <a href="">Test new features</a>
-            </p>
-             <div> © 2022 Maykal Tenev study project</div>
-          </footer>
-          </div>
-      </section>
+            <a href="">Press</a>
+            <a href="">Copyright</a>
+            <a href="">Contact</a>
+            <a href="">Creator</a>
+            <a href="">Advertise</a>
+            <a href="">Developers</a>
+            <a href="">Impressum</a>
+            <a href="">NetzDG</a>
+            <a href="">Transparenzbericht</a>
+            <a href="">NetzDG</a>
+            <a href="">complaints</a>
+            <br />
+            <a class="terms" href="">Terms</a>
+            <a href="">Privacy</a>
+            <a href="">Policy & Safety</a>
+            <a href="">How YouTube works</a>
+            <a href="">Test new features</a>
+          </p>
+          <div>© 2022 Maykal Tenev study project</div>
+        </footer>
+      </div>
+    </section>
     <main>
       <article class="uploads-title">
         <div class="uploads">
-            <div>Uploads</div>
-            <div>Sort by</div>
+          <div>Uploads</div>
+          <div>Sort by</div>
         </div>
         <div class="first-row">
           <div class="video">
-              <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-              <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
             <div class="info-video">
               <span class="views">18k views</span>
-                <span class="dot">.</span>
-                <span class="upload-time">15 hours ago</span>
+              <span class="dot">.</span>
+              <span class="upload-time">15 hours ago</span>
             </div>
           </div>
           <div class="video">
-            <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-            <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-          <div class="info-video">
-            <span class="views">18k views</span>
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
               <span class="dot">.</span>
               <span class="upload-time">15 hours ago</span>
-          </div>
+            </div>
           </div>
           <div class="video">
-            <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-            <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-          <div class="info-video">
-            <span class="views">18k views</span>
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
               <span class="dot">.</span>
               <span class="upload-time">15 hours ago</span>
-          </div>
+            </div>
           </div>
           <div class="video">
-            <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-            <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-          <div class="info-video">
-            <span class="views">18k views</span>
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
               <span class="dot">.</span>
               <span class="upload-time">15 hours ago</span>
-          </div>
+            </div>
           </div>
           <div class="video">
-            <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-            <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-          <div class="info-video">
-            <span class="views">18k views</span>
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
               <span class="dot">.</span>
               <span class="upload-time">15 hours ago</span>
-          </div>
+            </div>
           </div>
           <div class="video">
-            <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-            <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-          <div class="info-video">
-            <span class="views">18k views</span>
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
               <span class="dot">.</span>
               <span class="upload-time">15 hours ago</span>
             </div>
           </div>
         </div>
         <div class="second-row">
-        <div class="video">
-            <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-            <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-          <div class="info-video">
-            <span class="views">18k views</span>
+          <div class="video">
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
               <span class="dot">.</span>
               <span class="upload-time">15 hours ago</span>
+            </div>
+          </div>
+          <div class="video">
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
+              <span class="dot">.</span>
+              <span class="upload-time">15 hours ago</span>
+            </div>
+          </div>
+          <div class="video">
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
+              <span class="dot">.</span>
+              <span class="upload-time">15 hours ago</span>
+            </div>
+          </div>
+          <div class="video">
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
+              <span class="dot">.</span>
+              <span class="upload-time">15 hours ago</span>
+            </div>
+          </div>
+          <div class="video">
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
+              <span class="dot">.</span>
+              <span class="upload-time">15 hours ago</span>
+            </div>
+          </div>
+          <div class="video">
+            <img
+              src="./images/avatar.png"
+              alt="nasa-photo"
+              width="207"
+              height="107"
+            />
+            <div class="img-text">
+              <a href="#"
+                >Black History Month: NASA Honors the Stars of Our Past</a
+              >
+            </div>
+            <div class="info-video">
+              <span class="views">18k views</span>
+              <span class="dot">.</span>
+              <span class="upload-time">15 hours ago</span>
+            </div>
           </div>
         </div>
-        <div class="video">
-          <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-          <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-        <div class="info-video">
-          <span class="views">18k views</span>
-            <span class="dot">.</span>
-            <span class="upload-time">15 hours ago</span>
-        </div>
-        </div>
-        <div class="video">
-          <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-          <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-        <div class="info-video">
-          <span class="views">18k views</span>
-            <span class="dot">.</span>
-            <span class="upload-time">15 hours ago</span>
-        </div>
-        </div>
-        <div class="video">
-          <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-          <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-        <div class="info-video">
-          <span class="views">18k views</span>
-            <span class="dot">.</span>
-            <span class="upload-time">15 hours ago</span>
-        </div>
-        </div>
-        <div class="video">
-          <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-          <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-        <div class="info-video">
-          <span class="views">18k views</span>
-            <span class="dot">.</span>
-            <span class="upload-time">15 hours ago</span>
-        </div>
-        </div>
-        <div class="video">
-          <img src="./images/avatar.png" alt="nasa-photo" width="207" height="107">
-          <div class="img-text"><a href="#">Black History Month: NASA Honors the Stars of Our Past</a></div>
-        <div class="info-video">
-          <span class="views">18k views</span>
-            <span class="dot">.</span>
-            <span class="upload-time">15 hours ago</span>
-          </div>
-        </div>
-    </div>
       </article>
     </main>
     <script>
-      // javascript 
-      let clicked  = false;
-      document.querySelector(".hamburger")
-      .addEventListener("click", ()=> {
-          clicked = !clicked;
-          if(clicked);
-          console.log(clicked);
-          if(clicked) {
-              document.querySelector(".side-menu").style.cssText = 
-              "display: block;position: absolute; background-color: black;color: white;top: 6vh;left: 0;z-index: 1;"
-              document.querySelector(".shown").style.cssText = "display: none";
-              // do something only if clicked is true
-          } else {
-              document.querySelector(".side-menu").style.cssText=
-              "display: none;";
-              document.querySelector(".shown").style.cssText = "display: block";
-              // do something only if clicked is false
-          }
-      })  
-  </script>
+      // javascript
+      let clicked = false;
+      document.querySelector(".hamburger").addEventListener("click", () => {
+        clicked = !clicked;
+        if (clicked);
+        console.log(clicked);
+        if (clicked) {
+          document.querySelector(".side-menu").style.cssText =
+            "display: block;position: absolute; background-color: black;color: white;top: 6vh;left: 0;z-index: 1;";
+          document.querySelector(".shown").style.cssText = "display: none";
+          // do something only if clicked is true
+        } else {
+          document.querySelector(".side-menu").style.cssText = "display: none;";
+          document.querySelector(".shown").style.cssText = "display: block";
+          // do something only if clicked is false
+        }
+      });
+    </script>
   </body>
 </html>
