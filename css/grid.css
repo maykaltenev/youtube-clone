@@ -1,18 +1,21 @@
 body {
   display: grid;
-  grid-template-columns: 3.3rem auto;
-  grid-template-rows: 3rem auto;
+  grid-template-columns: 3.3rem 50rem;
+  grid-template-rows: 3rem 8rem 20rem;
   grid-template-areas:
     "aside nav"
+    "aside header"
     "aside main";
 }
 nav {
   grid-area: nav;
-  background-color: white;
 }
-main {
-  grid-area: main;
+header {
+  grid-area: header;
 }
 .aside-bar {
   grid-area: aside;
+}
+main {
+  grid-area: main;
 }
