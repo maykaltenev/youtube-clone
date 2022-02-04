@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-columns: 10rem auto;
+  grid-template-columns: 7rem auto;
   grid-template-rows: 10rem auto;
   grid-template-areas:
     "aside nav"

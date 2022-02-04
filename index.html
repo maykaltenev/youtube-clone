@@ -85,6 +85,14 @@
         <div></div>
         <div></div>
       </div>
+      <div class="shown">
+        <ul>
+          <li><a href=""><i class="fas fa-home"></i>Home</a></li>
+          <li><a href=""><i class="far fa-compass"></i>Explore</a></li>
+          <li><a href=""><i class="fab fa-youtube"></i>Subscriptions</a></li>
+          <li><a href=""><i class="fab fa-youtube"></i>Library</a></li>
+        </ul>
+      </div>
       <div class="side-menu">
         <div class="home">
           <ul>
@@ -279,5 +287,26 @@
     </div>
       </article>
     </main>
+    <script>
+      // javascript 
+      let clicked  = false;
+      document.querySelector(".hamburger")
+      .addEventListener("click", ()=> {
+          clicked = !clicked;
+          if(clicked);
+          console.log(clicked);
+          if(clicked) {
+              document.querySelector(".side-menu").style.cssText = 
+              "display: block;position: absolute; background-color: black;color: white;top: 6vh;left: 0;z-index: 1;"
+              document.querySelector(".shown").style.cssText = "display: none";
+              // do something only if clicked is true
+          } else {
+              document.querySelector(".side-menu").style.cssText=
+              "display: none;";
+              document.querySelector(".shown").style.cssText = "display: block";
+              // do something only if clicked is false
+          }
+      })  
+  </script>
   </body>
 </html>
