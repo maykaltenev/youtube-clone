@@ -10,6 +10,9 @@
 }
 .nasa-official div span {
   align-self: center;
+  text-transform: uppercase;
+  color: var(--dark-theme-white-fonts);
+  border: 2px solid green;
 }
 .control-space {
   display: flex;
