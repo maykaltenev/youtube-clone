@@ -1,3 +1,4 @@
+/* whole grid row */
 .nasa-official {
   display: flex;
   border: 5px rgb(92, 101, 205) dashed;
@@ -5,21 +6,31 @@
   align-items: center;
   background-color: var(--nav-color);
 }
+/* whole container */
 .nasa-official div {
   display: flex;
-}
-.nasa-official div span {
   align-self: center;
   text-transform: uppercase;
   color: var(--dark-theme-white-fonts);
-  border: 2px solid green;
+  border: 2px solid rgb(13, 191, 13);
 }
+/* name and subs with logo */
 .control-space {
   display: flex;
   width: 80rem;
   justify-content: space-between;
   border: 10px rgb(130, 238, 155) dashed;
 }
+/* name and subs next to logo */
+.account {
+  width: 25rem;
+  height: auto;
+}
+.name-subs {
+  display: flex;
+  flex-direction: column;
+}
+
 /* nasa logo  */
 .nasa-official div img {
   width: 6.5rem;
