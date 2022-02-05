@@ -1,8 +1,9 @@
 .nasa-official {
   display: flex;
-  border: 5px indianred dashed;
+  border: 5px rgb(92, 101, 205) dashed;
   justify-content: center;
   align-items: center;
+  background-color: var(--nav-color);
 }
 .nasa-official div {
   display: flex;
