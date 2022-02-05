@@ -1,4 +1,4 @@
 :root {
   --nav-color: #6d6d6d;
-  --dark-theme-white-fonts: white;
+  --dark-theme-white-fonts: rgba(255, 255, 255, 0.88);
 }
