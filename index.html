@@ -52,8 +52,8 @@
         <div class="account">
           <img src="./images/nasa-logo.png" alt="nasa img" >
           <div class="name-subs">
-          <div class="name">Nasa &#9745; </div>
-          <div class="subscribers">9.81 subscribed</div>
+            <div class="name">Nasa <div class="verify-h">&#9745<button class="verified">Verified</button></div></div>
+            <div class="subscribers">9.81 subscribed</div>
          </div>
         </div>
         
@@ -268,6 +268,22 @@
         </div>
     </div>
       </article>
+
     </main>
+  <script>
+      let hover = true;
+      document.querySelector(".verify-h").addEventListener("mouseover", () => {
+        hover = !hover;
+        
+        if (hover) {
+          //do something only if clocked is true
+          document.querySelector(".verified").style.cssText =
+            "display: block; width: 8rem; height: 3rem;position: absolute;background-color: gray;color: white;opacity: 0.6; text-transformation: capitalized";
+        } else {
+          //do something only if clocked is false
+          document.querySelector(".verified").style.cssText = "display: none;";
+        }
+      });
+  </script>
   </body>
 </html>
