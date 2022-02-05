@@ -1,7 +1,7 @@
 header {
   display: grid;
   grid-template-rows: 3.5rem 16rem 4rem 2rem;
-  grid-template-columns: 5fr auto 5fr;
+  grid-template-columns: 5fr 5rem 5fr;
   grid-template-areas:
     "nav nav nav"
     "poster poster poster"
