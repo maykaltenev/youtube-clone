@@ -5,24 +5,39 @@ nav {
 }
 /* setting youtube-logo */
 nav img {
-  width: 9vw;
+  width: 5vw;
 }
 /* search-bar */
+.search-bar {
+  /* border: 1px hsl(0deg 0% 19%) solid; */
+  display: flex;
+  align-items: center;
+  border-radius: 0 2px 2px 0;
+  color: rgb(49 49 49);
+  border: none;
+  height: 3rem;
+}
 
 /* search text */
 form input[type="text"] {
-  width: 30vw;
-  height: 4vh;
-  border: none;
+  width: 45rem;
+  height: 3rem;
   outline: none;
+  border-right: none;
 }
 
 /* search button */
 .search {
-  width: 4vh;
-  height: 4vh;
   cursor: pointer;
-  position: absolute;
+  border: 1px rgb(189, 189, 189) solid;
+  background-color: rgb(176, 170, 170);
+  border-radius: 0 2px 2px 0;
+  height: 3rem;
+  width: 4rem;
+}
+/* search icon inside the search  button*/
+form button i {
+  color: white;
 }
 /* microphone */
 .micro {
