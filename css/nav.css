@@ -2,10 +2,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--nav-color);
 }
 /* setting youtube-logo */
 nav img {
   width: 5vw;
+  background-color: transparent;
 }
 /* search-bar */
 .search-bar {
