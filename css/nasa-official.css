@@ -5,7 +5,6 @@
 }
 .nasa-official {
   display: flex;
-  /* border: 5px rgb(92, 101, 205) dashed; */
   justify-content: center;
   align-items: center;
   background-color: var(--nav-color);
@@ -16,17 +15,13 @@
   align-self: center;
   text-transform: uppercase;
   color: var(--dark-theme-white-fonts);
-  /* border: 2px solid rgb(13, 191, 13); */
 }
-
 /* name and subs with logo */
 .control-space {
   display: flex;
   width: 80rem;
   justify-content: space-between;
-  /* border: 10px rgb(130, 238, 155) dashed; */
 }
-
 /* name and subs next to logo */
 .account {
   width: 30rem;
@@ -50,7 +45,6 @@
 }
 /* verify icon */
 .name-subs :first-child > div {
-  /* border: 1px red solid; */
   width: 4rem;
 }
 .name-subs :first-child > div > div {

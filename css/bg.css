@@ -3,27 +3,23 @@
   grid-area: poster; */
   background-image: url(../images/banner.png);
   background-size: 135vw 35vh;
-  border: 2px red solid;
-  color: pink;
   background-repeat: no-repeat;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
-
 /* justify social media */
 .nasa-image ul {
   display: flex;
   width: 20%;
   justify-content: space-evenly;
-  border: 5px white dashed;
 }
 .nasa-image ul {
   list-style: none;
 }
 .nasa-image ul li a {
   display: flex;
-  color: rgba(249, 249, 249, 0.599);
+  color: var(--dark-theme-gray-fonts);
   text-decoration: none;
 }
 .nasa-image ul {
