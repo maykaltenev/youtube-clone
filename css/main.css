@@ -1,12 +1,12 @@
 main {
   display: grid;
-  grid-template-rows: 2rem 10rem 10rem;
+  grid-template-rows: 4rem 9rem 7rem;
   grid-template-columns: repeat(6, 14rem);
   grid-template-areas:
     " uploads uploads uploads uploads uploads uploads"
     " first first first first first first "
     " second second second second second second ";
-  border: 2px firebrick solid;
+  /* border: 2px firebrick solid; */
 }
 .upload-title {
   width: 95vw;
