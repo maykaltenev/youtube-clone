@@ -4,11 +4,9 @@
   display: flex;
   justify-content: space-between;
   color: var(--dark-theme-white-fonts);
-  border: 2px green solid;
 }
 /* uploads */
 .uploads div:nth-child(1) {
-  border: 1px red solid;
   width: 17rem;
   display: flex;
   justify-content: flex-end;
@@ -21,7 +19,6 @@
 }
 /* sort by */
 .uploads div:nth-child(2) {
-  border: 1px blue solid;
   width: 10rem;
   display: flex;
   justify-content: flex-end;
@@ -85,12 +82,17 @@
 .fourth-row .video,
 .fifth-row .video {
   margin-top: 1rem;
-  border: 1px gray solid;
+  border: 1px gray transparent;
+  color: var(--dark-theme-white-fonts);
+}
+.video img {
+  width: 13.5rem;
+  height: 7rem;
 }
 .info-video {
-  color: gray;
+  color: var(--dark-theme-gray-fonts);
   display: flex;
+  width: 12rem;
   justify-content: space-between;
   margin: 1rem 0.5rem;
-  border: 2px red dashed;
 }
