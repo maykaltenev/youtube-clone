@@ -2,7 +2,7 @@ body {
   display: grid;
   /* background-color: aqua; */
   grid-template-columns: 13rem 20rem 20rem 5fr;
-  grid-template-rows: 3rem 25.5rem auto;
+  grid-template-rows: 3.5rem 25.5rem auto;
   /* border: 2px black solid; */
   grid-template-areas:
     "header header header header"

@@ -27,15 +27,15 @@
 }
 .first-row::before {
   content: "";
-  width: 30rem;
+  width: 22rem;
 }
 .second-row::before {
   content: "";
-  width: 30rem;
+  width: 22rem;
 }
 .third-row::before {
   content: "";
-  width: 30rem;
+  width: 22rem;
 }
 
 .video div a {

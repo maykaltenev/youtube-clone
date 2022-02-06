@@ -8,22 +8,23 @@ nav {
 nav img {
   width: 5vw;
   background-color: transparent;
+  
 }
 /* search-bar */
 .search-bar {
-  /* border: 1px hsl(0deg 0% 19%) solid; */
+  border: 1px rgb(189, 189, 189) solid;
   display: flex;
   align-items: center;
   border-radius: 0 2px 2px 0;
-  color: rgb(49 49 49);
   border: none;
   height: 3rem;
+  border-radius: 0 2px 2px 0;
 }
 
 /* search text */
 form input[type="text"] {
-  width: 45rem;
-  height: 3rem;
+  width: 30rem;
+  height: 2.6rem;
   outline: none;
   border-right: none;
 }
@@ -34,8 +35,8 @@ form input[type="text"] {
   border: 1px rgb(189, 189, 189) solid;
   background-color: rgb(176, 170, 170);
   border-radius: 0 2px 2px 0;
-  height: 3rem;
-  width: 4rem;
+  height: 2.5rem;
+  width: 3rem;
 }
 /* search icon inside the search  button*/
 form button i {

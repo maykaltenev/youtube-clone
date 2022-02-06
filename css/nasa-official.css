@@ -1,5 +1,8 @@
 /* whole grid row */
-
+.nasa-official::before {
+  content: "";
+  width: 10rem;
+}
 .nasa-official {
   display: flex;
   border: 5px rgb(92, 101, 205) dashed;
