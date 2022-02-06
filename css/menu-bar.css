@@ -40,7 +40,6 @@ li button:active {
   border-radius: 8%;
 }
 li button {
-  /* border: 1px red solid; */
   width: 2rem;
   height: 2rem;
   font-size: 1.2rem;

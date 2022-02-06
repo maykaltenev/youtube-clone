@@ -1,16 +1,12 @@
 main {
   display: grid;
-  grid-template-rows: 4rem 9rem 7rem;
-  grid-template-columns: repeat(6, 14rem);
+  grid-template-rows: 3rem 14rem 14rem 14rem;
   grid-template-areas:
-    " uploads uploads uploads uploads uploads uploads"
-    " first first first first first first "
-    " second second second second second second ";
+    "uploads"
+    "first"
+    "second"
+    "third";
   /* border: 2px firebrick solid; */
-}
-.upload-title {
-  width: 95vw;
-  height: 75vh;
 }
 
 .uploads {
@@ -19,9 +15,15 @@ main {
 }
 .first-row {
   /* background-color: rgb(216, 209, 223); */
+  border: 1px rgb(0, 51, 255) solid;
   grid-area: first;
 }
 
 .second-row {
   grid-area: second;
+  border: 1px rgb(0, 51, 255) solid;
+}
+.third-row {
+  grid-row: third;
+  border: 1px pink solid;
 }
