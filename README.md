@@ -8,7 +8,7 @@
 
 ### About Project
 
-This project is part of the Digital Career Institute curriculum. It is mend to implement the basic and advance HTML & CSS approaches that we covered during the first month of the journey. The layout is made with grid and the inside arrangements are made with flexbox. I implemented a little mouseover effect with JavaScript.
+This project is part of the Digital Career Institute curriculum. It is meant to implement the basic and advance HTML & CSS approaches that we covered during the first month of the journey. The layout is made with grid and the inside arrangements are made with flexbox. I implemented a little mouseover effect with JavaScript.
 ![hover](./images/nasa-hover.png)
 
 ### How to use this Project
