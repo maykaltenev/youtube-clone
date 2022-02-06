@@ -1,17 +1,17 @@
 .aside-bar {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: left;
-  height: 75rem;
+  height: 99rem;
 }
 /* each row  */
 .aside-bar div ul li {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: left;
-  height: 2.5rem;
+  height: 3.3rem;
 }
 /* text content */
 .aside-bar div li a {
