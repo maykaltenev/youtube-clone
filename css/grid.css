@@ -1,11 +1,12 @@
 body {
   display: grid;
   /* background-color: aqua; */
-  grid-template-columns: 10rem 3fr auto 5fr;
-  grid-template-rows: 29rem 45rem;
+  grid-template-columns: 13rem 20rem 20rem 5fr;
+  grid-template-rows: 3rem 25.5rem auto;
   /* border: 2px black solid; */
   grid-template-areas:
-    "asidebar header header header"
+    "header header header header"
+    "asidebar poster poster poster"
     "asidebar main main main";
 }
 nav {
@@ -27,4 +28,7 @@ main {
   grid-area: main;
   background-color: #232224;
   /* border: 2px rgb(233, 238, 130) dashed; */
+}
+.nasa-image {
+  grid-area: poster;
 }
