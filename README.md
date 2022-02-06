@@ -13,7 +13,9 @@ This project is part of the Digital Career Institute curriculum. It is mend to i
 
 ### How to use this Project
 
-The project is solely for learning purpose and its made to practice and polish my design skills, while learning from one of the best on the market - YouTube. This is project is ongoing, so stay tunned! On my branch "mobile" i am implementing Media Queries to make my project responsive:
+The project is solely for learning purpose and its made to practice and polish my design skills, while learning from one of the best on the market - YouTube. </br>
+This project is ongoing, so stay tunned! On my branch "mobile" I am implementing Media Queries to make my project responsive, currently I added a on click function on the hamburger menu:
+![hover](./images/iphone-7-8.png)
 
 ##### Developed With
 
