@@ -6,20 +6,31 @@ nav {
 }
 /* setting youtube-logo */
 nav img {
-  width: 5vw;
-  display: flex;
+  width: 8vw;
   background-color: transparent;
-  justify-self: flex-start;
 }
+/* hamburger menu and youtube logo */
+.nav-start {
+  display: flex;
+  flex-direction: row;
+  width: 15rem;
+  border: 2px solid green;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 /* search-bar */
 .search-bar {
   border: 1px rgb(189, 189, 189) solid;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   border-radius: 0 2px 2px 0;
   border: none;
+  width: 50rem;
   height: 3rem;
   border-radius: 0 2px 2px 0;
+  border: 1px red solid;
 }
 
 /* search text */
@@ -48,7 +59,10 @@ form button i {
   width: 4vh;
   height: 4vh;
   border-radius: 100%;
-  border: none;
+  background-color: var(--nav-color);
+  align-self: center;
+  margin-left: 1%;
+  border: 1px red solid;
 }
 
 /* fancy checkbox */
@@ -106,15 +120,15 @@ form + button:active {
 }
 /* end-nav flex box */
 .end-nav {
-  width: 35vw;
+  width: 18vw;
   display: flex;
-  justify-content: space-between;
-  /* border: 2px red dashed; */
+  justify-content: space-evenly;
+  border: 2px red dashed;
 }
 /* avatar */
 .end-nav img {
-  width: 2.5vw;
-  /* height: 7vh; */
+  width: 2vw;
+  height: 6vh;
   border-radius: 100%;
 }
 /* background transparent */
@@ -139,7 +153,7 @@ form + button:active {
 }
 .hamburger div {
   width: 2.5rem;
-  background-color: black;
+  background-color: var(--dark-theme-white-fonts);
   border-radius: 10%;
-  border: 2px black solid;
+  border: 2px var(--dark-theme-white-fonts) solid;
 }
