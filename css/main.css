@@ -1,29 +1,29 @@
 main {
   display: grid;
-  grid-template-rows: 3rem 14rem 14rem 14rem;
+  grid-template-rows: 3rem 14rem 14rem 14rem 14rem 14rem;
   grid-template-areas:
     "uploads"
     "first"
     "second"
-    "third";
-  /* border: 2px firebrick solid; */
+    "third"
+    "fourth"
+    "fifth";
 }
-
 .uploads {
-  /* background-color: rgba(239, 144, 228, 0.571); */
   grid-area: uploads;
 }
 .first-row {
-  /* background-color: rgb(216, 209, 223); */
-  border: 1px rgb(0, 51, 255) solid;
   grid-area: first;
 }
-
 .second-row {
   grid-area: second;
-  border: 1px rgb(0, 51, 255) solid;
 }
 .third-row {
   grid-row: third;
-  border: 1px pink solid;
+}
+.fourth-row {
+  grid-row: fourth;
+}
+.fifth-row {
+  grid-row: fifth;
 }
