@@ -1,4 +1,5 @@
 /* whole grid row */
+
 .nasa-official {
   display: flex;
   border: 5px rgb(92, 101, 205) dashed;
@@ -14,6 +15,7 @@
   color: var(--dark-theme-white-fonts);
   border: 2px solid rgb(13, 191, 13);
 }
+
 /* name and subs with logo */
 .control-space {
   display: flex;
@@ -24,7 +26,7 @@
 
 /* name and subs next to logo */
 .account {
-  width: 18rem;
+  width: 30rem;
   height: auto;
   justify-content: space-between;
 }
@@ -33,15 +35,23 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 10rem;
+  width: 21rem;
   position: relative;
 }
 /* nasa name */
 .name-subs :first-child {
-  width: 6rem;
+  width: 17rem;
   display: flex;
   align-self: flex-start;
   font-size: 1.5rem;
+}
+/* verify icon */
+.name-subs :first-child > div {
+  border: 1px red solid;
+  width: 4rem;
+}
+.name-subs :first-child > div > div {
+  display: none;
 }
 
 /* nasa subs */
@@ -63,7 +73,7 @@
   padding: 0.5rem;
 }
 /* subscribe button */
-.nasa-official button:last-child {
+.nasa-official .subs-button {
   width: 10rem;
   height: 3rem;
   background-color: tomato;

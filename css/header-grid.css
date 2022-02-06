@@ -1,6 +1,6 @@
 header {
   display: grid;
-  grid-template-rows: 3.5rem 16rem 7rem 4rem;
+  grid-template-rows: 3.5rem 16rem 6rem 5rem;
   grid-template-columns: 5fr 5rem 5fr;
   grid-template-areas:
     "nav nav nav"

@@ -52,12 +52,12 @@
         <div class="account">
           <img src="./images/nasa-logo.png" alt="nasa img" >
           <div class="name-subs">
-            <div class="name">Nasa <div class="verify-h">&#9745<button class="verified">Verified</button></div></div>
+            <div class="name">Nasa <div class="verify-h">&#9745<div class="verified">Verified</div></div></div>
             <div class="subscribers">9.81 subscribed</div>
          </div>
         </div>
         
-          <button type="submit" value="subscribe">Subscribe</button>
+          <button class="subs-button" type="submit" value="subscribe">Subscribe</button>
       </div>
       </article>
       <article class="menu-bar">
@@ -278,7 +278,7 @@
         if (hover) {
           //do something only if clocked is true
           document.querySelector(".verified").style.cssText =
-            "display: block; width: 4rem; height: 2rem;position: absolute; margin: 0; bottom: 90%; right:15%; background-color: gray;border: 1px #7F7F7F solid; color: white;opacity: 0.6; text-transform: capitalize; font-size: 0.9rem";
+            "display: block; width: 4em; height: 1rem;position: absolute;  bottom: 100%; background-color: gray;border: 1px #7F7F7F solid; color: white;opacity: 0.6; text-transform: capitalize; font-size: 0.9rem; text-align: center;";
         } else {
           //do something only if clocked is false
           document.querySelector(".verified").style.cssText = "display: none;";
