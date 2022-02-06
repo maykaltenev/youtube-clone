@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--nav-color);
+  background-color: var(--dark-theme-subscribe);
 }
 /* setting youtube-logo */
 nav img {

@@ -2,8 +2,35 @@
   width: 80vw;
   height: 5vh;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  color: var(--dark-theme-white-fonts);
   border: 2px green solid;
+}
+/* uploads */
+.uploads div:nth-child(1) {
+  border: 1px red solid;
+  width: 17rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* chevron-down icon */
+.uploads div:nth-child(1) i {
+  font-size: 0.8rem;
+  padding: 0.1rem 0.5rem;
+}
+/* sort by */
+.uploads div:nth-child(2) {
+  border: 1px blue solid;
+  width: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-transform: uppercase;
+}
+.uploads div:nth-child(2) i {
+  font-size: 1rem;
+  padding: 0.1rem 0.5rem;
 }
 .first-row {
   display: flex;
@@ -25,10 +52,7 @@
   display: flex;
   width: 80vw;
 }
-.uploads::before {
-  content: "";
-  width: 30rem;
-}
+
 .first-row::before {
   content: "";
   width: 22rem;
