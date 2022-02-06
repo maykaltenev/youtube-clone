@@ -24,14 +24,11 @@
           <img src="./images/youtube-logo.png" alt="" />
          </div>
       </div>
-    
-        
         <form class="search-bar" action="action_page.php">
             <input type="text" placeholder="Search" name="search" />
             <button class="search" type="submit"><i class="fa fa-search"></i></button>    
             <button class="micro" type="submit"><i class="fa fa-microphone"></i></button>
           </form>
-       
         <div class="end-nav">
             <div class="toggle">
               <!-- <label class="toggle-label"></label> -->
@@ -50,7 +47,6 @@
       </nav>
       <article class="nasa-image">
           <ul>
-
             <li><a href="www.nasa.gov"><img src="./images/nasa-logo.png" alt="nasa img"><i class="fa fa-nasalogo"></i>www.nasa.gov</a></li>
               <li><a href=""><i class="fab fa-twitter"></i></a></li>
               <li><a href=""><i class="fab fa-facebook"></i></a></li>
@@ -67,7 +63,6 @@
             <div class="subscribers">9.81 subscribed</div>
          </div>
         </div>
-        
           <button class="subs-button" type="submit" value="subscribe">Subscribe</button>
       </div>
       </article>
@@ -85,7 +80,6 @@
         </li>
        </ul>
       </article>
-      
     </header>
     <section class="aside-bar">
         <div class="home">
@@ -110,9 +104,10 @@
             <ul>
               <li><a href=""><i class="fas fa-heart"></i>Spinnin Records</a></li>
               <li><a href=""><i class="fas fa-balance-scale"></i>Nice Guys</a></li>
-              <li><a href=""><i class="fab fa-affiliatetheme"></i>ARTE Concert</a><li>
+              <li><a href=""><i class="fab fa-affiliatetheme"></i>ARTE Concert</a></li>
               <li><a href=""><i class="fab fa-cuttlefish"></i>Lofi Girl</a></li>
               <li><a href=""><i class="fab fa-font-awesome-flag"></i>Future Classic</a></li>
+
             </ul>
           </div>
           <hr>
@@ -339,8 +334,7 @@
   <script>
       let hover = true;
       document.querySelector(".verify-h").addEventListener("mouseover", () => {
-        hover = !hover;
-        
+        hover = !hover; 
         if (hover) {
           //do something only if clocked is true
           document.querySelector(".verified").style.cssText =
