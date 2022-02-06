@@ -6,7 +6,7 @@
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
-  background-color: var(--nav-color);
+  background-color: var(--dark-theme-subscribe);
 }
 .menu-bar ul {
   display: flex;
@@ -40,6 +40,6 @@ li button {
   height: 2rem;
   font-size: 1.2rem;
   color: var(--dark-theme-gray-fonts);
-  background-color: var(--nav-color);
+  background-color: transparent;
   border: none;
 }
