@@ -36,7 +36,6 @@ LinkedIn: [Maykal Tenev](https://www.linkedin.com/in/maykal-tenev-a8729586/)
 
 ### Used Tools
 
-- [Canva](https://www.canva.com/)
 - [npm](https://www.npmjs.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
