@@ -34,6 +34,7 @@
   flex-direction: column;
   justify-content: flex-end;
   width: 10rem;
+  position: relative;
 }
 /* nasa name */
 .name-subs :first-child {
@@ -42,9 +43,7 @@
   align-self: flex-start;
   font-size: 1.5rem;
 }
-.name-subs :first-child :first-child {
-  position: relative;
-}
+
 /* nasa subs */
 .name-subs :last-child {
   width: 10rem;
