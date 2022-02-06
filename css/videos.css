@@ -82,8 +82,12 @@
 .fourth-row .video,
 .fifth-row .video {
   margin-top: 1rem;
+  margin-left: 0.4rem;
   border: 1px gray transparent;
   color: var(--dark-theme-white-fonts);
+  width: 16rem;
+  height: 13rem;
+  justify-content: space-between;
 }
 .video img {
   width: 13.5rem;

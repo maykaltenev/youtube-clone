@@ -8,7 +8,6 @@ header {
     "official official official"
     "menu-bar menu-bar menu-bar";
 }
-
 nav {
   /* border: 10px orange dashed; */
   grid-area: nav;

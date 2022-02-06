@@ -56,7 +56,6 @@
   width: 10rem;
   display: flex;
   align-self: flex-start;
-  text-transform: lowercase;
   font-size: 1rem;
   color: var(--dark-theme-gray-fonts);
 }
