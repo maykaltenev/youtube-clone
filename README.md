@@ -4,15 +4,16 @@
 
 ---
 
-![Screenshot from Project](./images/cover.png)
+![project](./images/cover.png)
 
 ### About Project
 
 This project is part of the Digital Career Institute curriculum. It is mend to implement the basic and advance HTML & CSS approaches that we covered during the first month of the journey. The layout is made with grid and the inside arrangements are made with flexbox. I implemented a little mouseover effect with JavaScript.
+![hover](./images/nasa-hover.png)
 
 ### How to use this Project
 
-The project is solely for learning purpose and its made to practice and polish my design skills, while learning from one of the best on the market - YouTube.
+The project is solely for learning purpose and its made to practice and polish my design skills, while learning from one of the best on the market - YouTube. This is project is ongoing, so stay tunned! On my branch "mobile" i am implementing Media Queries to make my project responsive:
 
 ##### Developed With
 
