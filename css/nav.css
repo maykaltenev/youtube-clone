@@ -7,8 +7,9 @@ nav {
 /* setting youtube-logo */
 nav img {
   width: 5vw;
+  display: flex;
   background-color: transparent;
-  
+  justify-self: flex-start;
 }
 /* search-bar */
 .search-bar {
@@ -125,4 +126,20 @@ form + button:active {
 .end-nav button > i {
   /* border: 5px salmon dashed; */
   font-size: 1.3rem;
+}
+/* hamburger menu */
+.hamburger {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 3rem;
+  height: 3rem;
+  border: 2px red dashed;
+}
+.hamburger div {
+  width: 2.5rem;
+  background-color: black;
+  border-radius: 10%;
+  border: 2px black solid;
 }
