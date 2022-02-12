@@ -3,6 +3,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: var(--dark-theme-subscribe);
+  border: 1px red solid;
 }
 /* setting youtube-logo */
 nav img {
