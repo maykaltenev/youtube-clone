@@ -20,12 +20,12 @@ header {
 }
 .aside-bar {
   grid-area: asidebar;
-  background-color: rgb(48, 48, 48);
+  /* background-color: rgb(48, 48, 48); */
   /* border: 2px rgb(157, 130, 238) dashed; */
 }
 main {
   grid-area: main;
-  background-color: #232224;
+  /* background-color: #232224; */
   /* border: 2px rgb(233, 238, 130) dashed; */
 }
 .nasa-image {

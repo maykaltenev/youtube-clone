@@ -6,7 +6,7 @@
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
-  background-color: var(--dark-theme-subscribe);
+  /* background-color: var(--dark-theme-subscribe); */
 }
 .menu-bar ul {
   display: flex;
@@ -25,7 +25,7 @@
   color: rgba(19, 19, 19, 0.701);
   font-size: 1.2rem;
   text-decoration: none;
-  color: var(--dark-theme-gray-fonts);
+  /* color: var(--dark-theme-gray-fonts); */
 }
 /* border-bottom: 3px solid wheat; */
 .menu-bar ul li a:active,

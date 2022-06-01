@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="light">
       <div class="nav-start">
         <div class="hamburger">
           <div></div>
@@ -31,9 +31,8 @@
           </form>
         <div class="end-nav">
             <div class="toggle">
-              <!-- <label class="toggle-label"></label> -->
               <label class="switch">
-                <input type="checkbox" name="agree" />
+                <input type="checkbox" onchange="theme()" name="agree" id="light-dark"  />
                 <span class="slider"></span>
               </label>
             </div>
@@ -456,6 +455,8 @@
           document.querySelector(".verified").style.cssText = "display: none;";
         }
       });
+      
   </script>
+  <script src="./app.js"></script>
   </body>
 </html>

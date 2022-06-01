@@ -15,7 +15,7 @@
 }
 /* text content */
 .aside-bar div li a {
-  color: var(--dark-theme-white-fonts);
+  /* color: var(--dark-theme-white-fonts); */
   text-decoration: none;
   display: flex;
   justify-content: flex-start;
