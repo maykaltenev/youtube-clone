@@ -7,14 +7,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark-theme-subscribe);
+  /* background-color: var(--dark-theme-subscribe); */
 }
 /* whole container */
 .nasa-official div {
   display: flex;
   align-self: center;
   text-transform: uppercase;
-  color: var(--dark-theme-white-fonts);
+  /* color: var(--dark-theme-white-fonts); */
 }
 /* name and subs with logo */
 .control-space {

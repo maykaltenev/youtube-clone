@@ -7,10 +7,13 @@ const theme = () => {
     const menuBar = document.querySelector('.menu-bar');
     const menuBarLinks = document.querySelectorAll('.menu-bar ul li a')
     const main = document.querySelector('main')
-    let hamburgerDiv = document.querySelectorAll('.hamburger div')
+    const hamburgerDiv = document.querySelectorAll('.hamburger div')
+    const nasaOfficial = document.querySelector('.nasa-official ')
     console.log(checkbox);
     if (checkbox) {
         //  this is cool state
+        nasaOfficial.classList.add('light');
+        nasaOfficial.classList.remove('dark');
         main.classList.add('light');
         main.classList.remove('dark');
         menuBar.classList.add('light');
@@ -32,6 +35,8 @@ const theme = () => {
                 item.classList.remove('dark')
         })
     } else {
+        nasaOfficial.classList.remove("light");
+        nasaOfficial.classList.add("dark");
         main.classList.remove("light");
         main.classList.add("dark");
         nav.classList.remove("light");
